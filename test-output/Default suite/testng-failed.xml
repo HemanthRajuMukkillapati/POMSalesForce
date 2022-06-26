@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="bot.sf.testcases.LoginSalesForce">
+        <methods>
+          <include name="endResult"/>
+          <include name="preCondition"/>
+          <include name="startReport"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="closeBrowser"/>
+          <include name="setValues"/>
+          <include name="setUpClass"/>
+          <include name="startTestCase"/>
+        </methods>
+      </class> <!-- bot.sf.testcases.LoginSalesForce -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
